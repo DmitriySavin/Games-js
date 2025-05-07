@@ -1,7 +1,6 @@
 <section class="calc">
   <div class="container">
-    <div class="calc-div">
-      <svg
+    <svg
       width="536"
       height="2"
       viewBox="0 0 536 2"
@@ -11,51 +10,51 @@
       <path d="M0 1L536 1.00005" stroke="black" />
     </svg>
     <h2 class="calc-title">Калькулятор</h2>
+    <div class="calc-div">
     <input
       type="text"
-      id="firstNum"
+      id="first"
       name="enter-num"
       placeholder="Введіть число"
       class="enter-num"/>
     <ul class="oper-list">
       <li class="op-item">
-        <button onclick="plusBy()" type="button" class="btn first-operator" value="plus">+</button>
+        <button type="button" class="btn first-operator" value="plus">+</button>
       </li>
       <li class="op-item">
-        <button onclick="multiplyBy()" type="button" class="btn second-operator" value="multiply">*</button>
+        <button type="button" class="btn second-operator" value="multiply">*</button>
       </li>
       <li class="op-item"></li>
-      <button onclick="minusBy()" type="button" class="btn third-operator" value="minus">-</button>
+      <button type="button" class="btn third-operator" value="minus">-</button>
       <li class="op-item">
-        <button onclick="divideBy()" type="button" class="btn fourth-operator" value="divide">/</button>
+        <button type="button" class="btn fourth-operator" value="divide">/</button>
       </li>
     </ul>
     <input
       type="text"
-      id="secondNum"
+      id="second"
       name="enter-num"
       placeholder="Введіть число"
       class="enter-num"/>
-    <button type="button" class="equal">=</button>
+    <button type="button" id="equal" class="equal">=</button>
     <p class="result">Результат<span id="result"></span>
     </p>
-            <svg
+    </div>
+               <svg
       width="536"
       height="2"
       viewBox="0 0 536 2"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
-      class="line"
-    >
+      class="line">
       <path d="M0 1L536 1.00005" stroke="black" />
     </svg>
-    </div>
   </div>
 </section>
 <section class="time-calc">
   <div class="container">
+    <h2 class="calc-title">Калькулятор часу</h2>
     <div class="calc-time-div">
-      <h2 class="calc-title">Калькулятор часу</h2>
   <input type="text" id="enter-time-num" name="enter-time-num" placeholder="Введіть число" class="enter-time">
   <button type="button" class="find-btn">
     <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">

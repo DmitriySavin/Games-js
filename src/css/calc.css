@@ -1,8 +1,27 @@
+:root {
+  --font-family: "Montserrat Alternates", sans-serif;
+  --second-family: "Inter", sans-serif;
+  --third-family: "Sacramento", sans-serif;
+}
+.container {
+    width: 1090px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
 .calc-title {
+    display: flex;
+    justify-content: center;
     font-family: var(--font-family);
 font-weight: 400;
 font-size: 16px;
 color: #000;
+margin-top: 36px;
+}
+.calc-div {
+    display: flex;
+    justify-content: center;
+    margin-top: 36px;
+    margin-bottom: 36px;
 }
 .enter-num {
     border-radius: 20px;
@@ -16,6 +35,13 @@ font-family: var(--font-family);
 font-weight: 400;
 font-size: 12px;
 color: #7e7e7e;
+margin-left: 38px;
+margin-right: 38px;
+}
+.oper-list {
+    flex-wrap: wrap;
+    columns: 2;
+    column-gap: 10px;
 }
 .btn {
     border-radius: 20px;
@@ -40,6 +66,7 @@ font-family: var(--font-family);
 font-weight: 400;
 font-size: 12px;
 color: #fff;
+margin-top: 14px;
 }
 .result {
     border-radius: 20px;
@@ -52,10 +79,17 @@ font-weight: 400;
 font-size: 12px;
 color: #7e7e7e;
 padding: 0 auto;
+margin-left: 38px;
 }
 
 /* Time calc. */
 
+.calc-time-div {
+    display: flex;
+    justify-content: center;
+    margin-top: 36px;
+    margin-bottom: 36px;
+}
 .enter-time {
     border-radius: 20px;
     border: none;
