@@ -81,6 +81,7 @@ p{
 }
 
 .modal_footer.is-hidden{
+<<<<<<< Updated upstream
     display:flex;
     justify-content: center;
     position:absolute;
@@ -97,6 +98,9 @@ p{
 }
 /* .modal_footer{
     display:none ;
+=======
+    display:flex ;
+>>>>>>> Stashed changes
     justify-content: center;
     position:fixed;
     transform: translate(100%, -50%);
@@ -105,12 +109,17 @@ p{
     border-radius: 20px;
     background: greenyellow;
     z-index: 2;
+<<<<<<< Updated upstream
 } */
+=======
+}
+>>>>>>> Stashed changes
 
 .modeal_fh2{
     margin-top: 83px;
 }
 
+<<<<<<< Updated upstream
 .bc{
     top: 30px;
     right: 30px;
@@ -189,4 +198,43 @@ p{
     margin-left: 390px;
     width: 30px;
     height: 30px;
+=======
+.close{
+    /* width: 100%;
+    height: 100%;
+    object-fit: cover; */
+    /* top: 30px;
+    right: 30px;
+    justify-content: right;
+    width: 15px;
+    height: 15px;
+    position: absolute; */
+}
+
+
+.mb{
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid rgba(0, 0, 0, 0);
+    top: 30px;
+    right: 30px;
+    justify-content: right;
+    background-image: url(../img/close.svg);
+    background-position: center;
+    background-size: 15px;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+}
+
+.modal_footer {
+    display:none;
+    justify-content: center;
+    position:fixed;
+    transform: translate(100%, -50%);
+    width: 463px;
+    height: 245px;
+    border-radius: 20px;
+    background: greenyellow;
+    z-index: 2;
+>>>>>>> Stashed changes
 }
