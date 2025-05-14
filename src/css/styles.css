@@ -1,5 +1,15 @@
-
+/**
+  |============================
+  | include css partials with
+  | default @import url()
+  |============================
+*/
 @import url('./reset.css');
+@import url('./scientist-sect.css');
 /* @import url('./vite-promo.css'); */
 
-
+:root {
+    --font-family: "Montserrat Alternates", sans-serif;
+    --second-family: "Inter", sans-serif;
+    --third-family: "Sacramento", sans-serif;
+}
