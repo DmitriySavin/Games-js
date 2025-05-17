@@ -39,14 +39,21 @@ margin-left: 38px;
 margin-right: 38px;
 }
 .oper-list {
+    display: flex;
     flex-wrap: wrap;
     columns: 2;
     column-gap: 10px;
+    row-gap: 10px;
+    width: 71px;
+    height: 60px;
+}
+.op-item {
+    flex-basis: calc((100% - 10px) / 2);
 }
 .btn {
     border-radius: 20px;
 padding: 5px 10px;
-width: 27px;
+/* /* width: 27px; */
 height: 25px;
 box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.25);
 background: #000;
@@ -87,10 +94,13 @@ margin-left: 38px;
 .calc-time-div {
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-top: 36px;
     margin-bottom: 36px;
+    padding-right: 70px;
 }
 .enter-time {
+    position: relative;
     border-radius: 20px;
     border: none;
 padding: 10px 45px 10px 10px;
@@ -98,8 +108,22 @@ width: 150px;
 height: 35px;
 background: #d7d7d7;
 box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.25);
+margin-right: -50px;
 }
 .find-btn {
+    position: relative;
     border-radius: 0 20px 20px 0;
     background-color: #000;
+    margin-right: 33px;
+}
+#time-result {
+    margin-left: 33px;
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 17px;
+color: #000;
+}
+.line {
+    display: block;
+margin: 0 auto;
 }
