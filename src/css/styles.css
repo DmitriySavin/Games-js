@@ -5,8 +5,7 @@
   |============================
 */
 @import url('./reset.css');
-@import url('./scientist-sect.css');
-/* @import url('./vite-promo.css'); */
+@import url('./vite-promo.css');
 
 :root {
     --font-family: "Montserrat Alternates", sans-serif;
