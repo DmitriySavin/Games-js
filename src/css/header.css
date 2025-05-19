@@ -37,7 +37,8 @@
 }
 
 .close__icon:hover {
- fill: blue;
+  display: block;
+  fill: blue;
 }
 
 .modal__text {
@@ -97,8 +98,46 @@
   margin: 0 auto;
   padding: 10px 20px;
 }
+
+.hidden {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.visible {
+  opacity: 1;
+}
+
+.sword__icon {
+  position: absolute;
+  top: 154px;
+  bottom: 132px;
+  left: 41px;
+}
+
+.puzzle__icon {
+  position: absolute;
+  top: 230px;
+  bottom: 56px;
+  left: 85px;
+}
+
+.toe__icon {
+  position: absolute;
+  top: 230px;
+  bottom: 56px;
+  right: 85px;
+}
+
+.development__icon {
+  position: absolute;
+  top: 154px;
+  bottom: 132px;
+  right: 41px;
+}
 /* Header */
 .header {
+  width: 1440px;
   padding-bottom: 33px;
   padding-top: 32px;
 }
@@ -109,12 +148,79 @@
   align-items: center;
 }
 
-.navigation {
-  padding-left: 81px;
-  padding-right: 361px;
-}
-
 .nav-list {
   display: flex;
+  flex-wrap: nowrap;
   column-gap: 50px;
 }
+
+.select__btn {
+  background-color: transparent;
+  border: none;
+}
+
+.select__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.toggle-box {
+  cursor: pointer;
+}
+
+.nav-list__item1 {
+  width: 100px;
+}
+
+.nav-list__item2 {
+  width: 110px;
+}
+
+.nav-list__item3 {
+  width: 110px;
+}
+
+body.light-theme {
+  background-color: #ffffff;
+}
+
+body.dark-theme {
+  background-color: #333;
+  color: #ffffff;
+}
+
+/* За замовчуванням світла тема */
+.sun__icon {
+  display: block;
+}
+
+.moon__icon {
+  display: none;
+}
+
+/* Якщо активна світла тема */
+body.light-theme .sun__icon {
+  display: block;
+}
+
+body.light-theme .moon__icon {
+  display: none;
+}
+
+/* Якщо активна темна тема */
+body.dark-theme .sun__icon {
+  display: none;
+}
+
+body.dark-theme .moon__icon {
+  display: block;
+}
+
+/* .select__icon.dark-theme {
+  fill: white;
+}
+
+.select__icon.light-theme {
+  fill: black;
+} */
