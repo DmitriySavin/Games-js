@@ -41,6 +41,10 @@ body {
   transform: scale(0);
 }
 
+.rps-line {
+  border: 1px solid black;
+}
+
 .game-title {
   text-align: center;
   font-size: 0.875rem;
