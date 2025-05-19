@@ -1,0 +1,69 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background: #fff;
+}
+
+h1 {
+  text-align: center;
+}
+ .container { 
+    width: 1090px;
+    margin: 0 auto;
+    padding: 0 20px;
+ } 
+.svg-search {
+  display: flex;
+  align-items: center;
+}
+.section-year,
+.section-number {
+  border-top: 1px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 36px;
+  padding-bottom: 36px;
+  width: 536px;
+}
+.section-number-text,
+.section-year-text {
+  margin: 0;
+    margin-bottom: 36px;
+    text-align: center;
+}
+
+.game-input-year {
+  display: flex;
+  width: 215px;
+}
+.game-input-number {
+   display: flex;
+  width: 150px;
+
+}
+
+input {
+  padding: 10px;
+  flex: 1;
+  border: none;
+  background: #eee;
+  border-radius: 20px 0 0 20px;
+}
+
+button {
+  padding: 10px;
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 0 20px 20px 0;
+  cursor: pointer;
+}
+
+.result {
+  color: green;
+}
+.data-vropper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
