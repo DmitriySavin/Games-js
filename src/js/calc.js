@@ -33,9 +33,7 @@ refs.divideBy.addEventListener('click', () => {
 });
 refs.equalBy.addEventListener('click', () => {
   const num1 = parseInt(refs.firstNum.value);
-  console.log(num1)
   const num2 = parseInt(refs.secondNum.value);
-  console.log(num2)
   if (operation) {
     const result = operation(num1, num2);
     console.log(result)
