@@ -55,13 +55,7 @@ moonIcon.addEventListener("click", () => {
   body.classList.add('light-theme');
 });
 
-const selectBtnElement = document.querySelector(".select__btn");
 
-selectBtnElement.addEventListener("click", selectOption)
-
-function selectOption() {
-  
-}
 
 
 
