@@ -6,7 +6,7 @@ const refs = {
   minusBy: document.querySelector('.third-operator'),
   divideBy: document.querySelector('.fourth-operator'),
   equalBy: document.querySelector('#equal'),
-  result: document.querySelector('.result'),
+  result: document.querySelector('.calc-result'),
 };
 
 let num1 = 0;
