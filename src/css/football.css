@@ -1,8 +1,14 @@
+.football {
+  padding-top: 36px;
+}
+
 .football__title {
-  font-family: 'Montserrat Alternates', sans-serif;
+font-family: var(--font-family);
   font-weight: 400;
   font-size: 16px;
   color: #000;
+  text-align: center;
+  margin-bottom: 36px;
 }
 
 #field {
@@ -14,6 +20,7 @@
   overflow: hidden;
   cursor: pointer;
   border-radius: 37px;
+  margin: 0 auto;
 }
 
 #ball {
