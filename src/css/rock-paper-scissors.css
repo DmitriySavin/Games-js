@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0;
   background-color: white;
   font-family: "Montserrat", sans-serif;
@@ -7,7 +7,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-}
+} */
 
 .container {
   width: 1090px;
@@ -25,6 +25,7 @@ body {
   position: relative;
   width: 100%;
   border-bottom: 540px 5px black solid;
+  height: 300px;
 }
 
 .rock-paper-scissor-section::after {

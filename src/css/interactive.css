@@ -1,17 +1,7 @@
-
-body {
-  font-family: Arial, sans-serif;
-  background: #fff;
-}
-
 h1 {
   text-align: center;
 }
- .container { 
-    width: 1090px;
-    margin: 0 auto;
-    padding: 0 20px;
- } 
+
 .svg-search {
   display: flex;
   align-items: center;
@@ -42,7 +32,7 @@ h1 {
 
 }
 
-input {
+.interactive input {
   padding: 10px;
   flex: 1;
   border: none;
@@ -50,7 +40,7 @@ input {
   border-radius: 20px 0 0 20px;
 }
 
-button {
+.interactive button {
   padding: 10px;
   background: black;
   color: white;
