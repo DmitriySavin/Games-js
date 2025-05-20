@@ -1,4 +1,4 @@
-p{
+.footer p {
     margin: 0;
 }
 
@@ -27,7 +27,6 @@ p{
     justify-content: center;
     width: 1440px;
     height: 220px;
-    background: #FFF;
 }
 
 .footer_input{
@@ -183,13 +182,13 @@ p{
     height: 30px;
 }
 
-.game_dev {
+.game_dev{
     position: fixed;
     margin-top: 69px;
     margin-left: 390px;
     width: 30px;
     height: 30px;
-}
+=======
 .close{
     /* width: 100%;
     height: 100%;
