@@ -1,12 +1,13 @@
-:root {
-  --font-family: "Montserrat Alternates", sans-serif;
-  --second-family: "Inter", sans-serif;
-  --third-family: "Sacramento", sans-serif;
+section {
+    background-color: white;
+    width: 1440px;
+    margin: 0 auto;
 }
 .container {
     width: 1090px;
     margin: 0 auto;
     padding: 0 20px;
+
 }
 .calc-title {
     display: flex;
@@ -45,7 +46,7 @@ margin-right: 38px;
     columns: 2;
     column-gap: 10px;
     row-gap: 10px;
-    width: 71px;
+    width: 75px;
     height: 60px;
 }
 .op-item {
@@ -103,12 +104,13 @@ margin-left: 38px;
     position: relative;
     border-radius: 20px;
     border: none;
-padding: 10px 45px 10px 10px;
+padding: 10px 45px 10px 20px;
 width: 170px;
 height: 35px;
 background: #d7d7d7;
 box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.25);
 margin-right: -50px;
+font-size: 13px;
 }
 .find-btn {
     position: relative;

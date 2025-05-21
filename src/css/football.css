@@ -1,7 +1,10 @@
-.football {
+/* .football {
   padding-top: 36px;
+} */
+.football-line {
+  width: 536px;
+  margin-bottom: 40px;
 }
-
 .football__title {
 font-family: var(--font-family);
   font-weight: 400;
@@ -25,8 +28,8 @@ font-family: var(--font-family);
 
 #ball {
   position: absolute;
-  left: 0;
-  top: 0;
+      left: 360px;
+  top: 85px;
   width: 40px;
   height: 40px;
   transition: all 1s;

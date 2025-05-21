@@ -5,6 +5,7 @@ function checkLeapYear() {
   const year = parseInt(document.getElementById('yearInput').value);
   const result = document.getElementById('yearResult');
   if ((year % 4 === 0 && year % 100 !== 0) || year % 400 === 0) {
+    result.style.color = 'green';
     result.textContent = 'Ви народилися у високосний рік!';
   } else {
     result.style.color = 'red';

@@ -1,23 +1,13 @@
-/**
-  |============================
-  | include css partials with
-  | default @import url()
-  |============================
-*/
-/* @import url('./reset.css'); */
-/* @import url('./vite-promo.css'); */
-
-
 @import url('./reset.css');
-@import url('./vite-promo.css');
+/* @import url('./vite-promo.css'); */
 @import url('./header.css');
 @import url('./interactive.css');
 @import url('./calc.css');
-@import url('./dino.css');
+/* @import url('./dino.css'); */
 @import url('./our-team.css');
 @import url('./random-number.css');
 @import url('./rock-paper-scissors.css');
 @import url('./scientist-sect.css');
 @import url('./football.css');
-/* @import url('./footer.css'); */
+@import url('./footer.css');
 

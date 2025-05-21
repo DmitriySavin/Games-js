@@ -1,3 +1,9 @@
+body {
+  background-image: url(./img/background.jpg);
+  /* background-size: 1525px 3400px; */
+  background-position: center;
+  background-repeat: no-repeat;
+}
 .backdrop {
   position: fixed;
   top: 0;
@@ -137,9 +143,12 @@
 }
 /* Header */
 .header {
-  width: 1440px;
+  /* width: 1440px; */
   padding-bottom: 33px;
   padding-top: 32px;
+  background-color: white;
+  margin: 0 auto;
+  /* width: 100vw; */
 }
 
 .header-position {
@@ -152,6 +161,8 @@
   display: flex;
   flex-wrap: nowrap;
   column-gap: 50px;
+  padding-right: 360px;
+  padding-left: 80px;
 }
 
 .select__btn {
@@ -167,6 +178,7 @@
 
 .toggle-box {
   cursor: pointer;
+  padding-right: 50px;
 }
 
 .nav-list__item1 {

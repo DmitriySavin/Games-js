@@ -35,7 +35,7 @@ function onEscKeyPress(event) {
 function showGreeting() {
   const name = refs.inputField.value.trim();
   if (name) {
-    refs.siteGreeting.textContent = `Вітаємо, ${name}!`;
+    refs.siteGreeting.textContent = `Вітаємо,${name}!`;
     refs.siteGreeting.classList.remove('hidden');
     closeModal();
   }

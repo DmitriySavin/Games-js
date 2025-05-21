@@ -6,7 +6,14 @@ h1 {
   display: flex;
   align-items: center;
 }
-.section-year,
+.section-year {
+    border-top: 1px solid black;
+      margin-left: auto;
+      margin-right: auto;
+      padding-top: 36px;
+      padding-bottom: 36px;
+      width: 536px;
+}
 .section-number {
   border-top: 1px solid black;
   margin-left: auto;
@@ -14,12 +21,26 @@ h1 {
   padding-top: 36px;
   padding-bottom: 36px;
   width: 536px;
+      border-bottom: 1px solid black;
 }
-.section-number-text,
-.section-year-text {
+.section-number-text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  color: #000;
   margin: 0;
-    margin-bottom: 36px;
-    text-align: center;
+  margin-bottom: 36px;
+  text-align: center;
+}
+
+.section-year-text {
+  font-family: var(--font-family);
+  font-weight: 400;
+    font-size: 18px;
+  color: #000;
+  margin: 0;
+  margin-bottom: 36px;
+  text-align: center;
 }
 
 .game-input-year {
@@ -27,18 +48,31 @@ h1 {
   width: 215px;
 }
 .game-input-number {
-   display: flex;
+  display: flex;
   width: 150px;
-
 }
 
-.interactive input {
+.interactive-input_bh {
   padding: 10px;
-  flex: 1;
-  border: none;
-  background: #eee;
-  border-radius: 20px 0 0 20px;
+    flex: 1;
+    border: none;
+    background: #eee;
+    border-radius: 20px 0 0 20px;
+    width: 210px;
+    height: 35px;
 }
+.interactive-input_year {
+  padding: 10px;
+    flex: 1;
+    border: none;
+    background: #eee;
+    border-radius: 20px 0 0 20px;
+    width: 150px;
+    height: 35px;
+}
+/* .interactive input {
+
+} */
 
 .interactive button {
   padding: 10px;
@@ -53,7 +87,7 @@ h1 {
   color: green;
 }
 .data-vropper {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }

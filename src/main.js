@@ -1,0 +1,10 @@
+import './js/header';
+import './js/interactive';
+import './js/rock-paper-scissors';
+import './js/calc';
+import './js/calc-time';
+import './js/football';
+import './js/random-number';
+import './js/our-team';
+import './js/scientist-sect';
+import './js/footer';

@@ -3,6 +3,8 @@
     width: 600px;
     border-bottom: 1px solid black;
     margin: auto;
+    margin-top: 40px;
+        display: block;
 }
 .dino-title {
     text-align: center;
@@ -16,7 +18,7 @@ font-weight: 400;
     background-image: url(../img/dino-default.png);
     background-size: 50px 50px;
     position: relative;
-    top: 150px;
+    top: 152px;
    
 } 
 .cactus {
@@ -25,7 +27,7 @@ font-weight: 400;
     background-image: url(../img/cactus.png);
     background-size: 20px 40px;
     position: relative;
-    top: 110px;
+    top: 113px;
     left: 580px;
     animation: cactusMov 1s infinite linear;
 }
